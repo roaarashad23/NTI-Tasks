@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 50%;
+    height: 100vh;
+    background-color: #02B3D2;
+    color: white;
+    padding-top: 10%;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+.content{
+    text-align: center;
+    width: 100%;
+    
+}
+.content h2{
+    margin-bottom: 3%;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p{
+    margin-bottom: 3%;
+    font-size:22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    vertical-align: top;
+}
+form input{
+    width: 80%;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    margin-top: 2em;
+    background-color: rgba(211, 211, 211, 0.325);
+    border: none;
+}
+form h2{
+    font-size:3em ;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form textarea{
+    padding-top:10px ;
+    margin-top: 2em;
+    width: 80%;
+    height: 20%;
+    border: none;
+    background-color:  rgba(211, 211, 211, 0.325);
+}
+#button{
+    width: 10%;
+    background-color: #02B3D2 ;
+    border-radius: 2em;
+    width: 10em;
+    color: white;
+}
