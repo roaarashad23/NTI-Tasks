@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #F1F1F2;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.card{
+    width: 30%;
+    position: relative;
+}
+span{
+    color:#20d0d2;
+}
+.flex{
+    display: flex;
+}
+.back-ground{
+    background-color: white;
+}
+.margin-left{
+    margin-left: 7%;
+}
+.margin-right{
+    margin-right: 5%;
+}
+.w-30{
+ width: 30%;
+}
+.padding-top-pottom{
+    padding-top:4% ;
+    padding-bottom: 3%;
+}
+
+.part2 img{
+    width: 100%;
+    display: block;
+    
+}
+.part2{
+    position: relative;
+}
+.lay-out{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.547);
+    opacity: 0;
+}
+.part2 button{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.part2:hover .lay-out{
+    opacity: 1;
+}
+.circle-img img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 15px;
+    top: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.white-back-ground{
+    background-color: white;
+}
+.part3{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.part3 h2{
+    color: #20d0d2;
+}
+.part3 hr{
+    width: 30px;
+    border: solid 3px #333333;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.part3 p{
+    color: #6e6e6e;
+    line-height: 1.6;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.margin-10{
+    margin-top: 10px;
+}
