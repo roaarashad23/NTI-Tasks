@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 25%;
+    height: 360px;
+    margin: auto;
+    background-image: url(../img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.lay-out{
+    width: 100%;
+    height: 310px;
+    position: absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.547);
+}
+.white-div{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.white-div img{
+    width: 13%;
+    height: 10%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding-left-right{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.white-div P{
+    color: #9AA0A6;
+}
+hr{
+    width: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.white-div:hover {
+    height: 360px;
+   
+}
+.margin-bottom-2{
+    margin-bottom: 2%;
+}
+.margin-bottom-5{
+    margin-bottom: 5%;
+}
+.white-div .h2-hidden{
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.6;
+    margin-bottom: 10%;
+}
+.white-div button{
+    padding-left: 5%;
+    color: darkblue;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}

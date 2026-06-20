@@ -1,0 +1,37 @@
+*{
+
+    box-sizing: border-box;
+}
+.stret{
+background-image: url(../img/WhatsApp\ Image\ 2026-06-17\ at\ 8.33.04\ PM.jpeg);
+background-position: center;
+background-size: contain;
+height: 100vh;
+}
+img{
+    width: 300px;
+     transform: rotateY(180deg); 
+}
+.flex{
+    display: flex;
+}
+.align-item{
+    align-items: center;
+   
+}
+.car-animation{
+    animation-name: car;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes car{
+    0%{
+        transform: translateX(0%) rotateY(180deg);
+        /*  */
+        /* margin-left: 0%; */
+    }
+    100%{
+        transform: translateX(1600px) rotateY(180deg);;
+        /* margin-left: 100%; */
+    }
+}

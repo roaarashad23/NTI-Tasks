@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.w-80{
+    width: 80%;
+}
+.margin-auto{
+    margin: auto;
+}
+.w-30{
+    width: 30%;
+}
+.card{
+    background-color: beige;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.green-background{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 91%;
+    bottom: 79%;
+}
+.card i{
+    position: absolute;
+    left: 93%;
+    bottom: 85%;
+    color: white;
+}
+.psition-relative{
+    position: relative;
+    z-index: 3;
+}
+.card:hover .green-background{
+    transform: scale(20);
+    transition: 1s;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.card.w-30.card2 .green-background{
+    transform: scale(1);
+}
+.card.w-30.card2:hover{
+    background-color: white;
+    transition: 1s;
+    transform: translateY(-3);
+    box-shadow: 0 0 15px rgba(0,0,0,0.345);
+    
+}
+.card.w-30.card3 .green-background{
+    transform: scale(1);
+}
+
+.card.w-30.card3:hover{
+    border: 3px solid darkgreen;
+    color: darkgreen;
+    transition: 2s;
+}
+.w-35{
+    width: 35%;
+}
+.margin-top{
+    margin-top: 10%;
+}
+.border{
+    border: 1px slategrey solid;
+}
+.psition-relative2{
+    position: relative;
+}
+.pink-background{
+    width: 100px;
+    height: 700px;
+    background-color: blueviolet;
+    position: absolute;
+    top: -19px;
+    left: 106%;
+}
+.w-35.margin-auto.margin-top.card.border.psition-relative2:hover{
+    .pink-background{
+        transform: rotate(-10deg);
+    }
+}
+
+.w-35.margin-auto.margin-top.card.border.psition-relative2 i{
+    position: absolute;
+    left: 3%;
+    bottom: 96%;
+    color: white;
+    transform: rotate(8deg);
+}
