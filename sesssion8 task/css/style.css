@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.back-ground-img{
+    background-image: url(../img/Image\ Placeholder.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.green{
+background-color: #2DA884 !important;    
+}
+.text-green{
+    color:#2DA884 !important;
+}
+.green-filter {
+    filter: invert(56%) sepia(35%) saturate(1005%) hue-rotate(117deg) brightness(97%) contrast(85%);
+  }
+h1{
+    font-size: 110px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.w-50{
+    width: 50%;
+}
+.w-52{
+    width: 52%;
+}
+.w-20{
+    width: 20%;
+}
+.w-44{
+    width: 44%;
+}
+.w-80{
+    width: 80%;
+}
+.w-31{
+    width: 31%;
+}
+.w-54{
+    width: 54%;
+}
+.w-56{
+    width: 56%;
+}
+.w-100{
+    width: 100%;
+}
+.w-75
+{
+    width: 75%;
+}
+.w-80p{
+    width: 80px;
+}
+.h-80p{
+    height: 80px;
+}
+.margin-auto{
+    margin: auto;
+}
+.text-align-center{
+    text-align: center;
+}
+.h2-size{
+    font-size: 67px;
+}
+
+.accordion-item{
+    border: none !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+
+}
+.accordion-button:not(.collapsed){
+    background-color: #2DA884;
+    color: white;
+    box-shadow: none
+}
+.accordion-button:not(.collapsed)::after{
+    filter:brightness(0) invert(1)
+}
+.accordion-body{
+    background-color: #2DA884;
+    color: white;
+}
+.h-544{
+    height: 544px;
+}
+
+.white-placeholder::placeholder {
+    color: #ffffff !important;
+    
+}
+.h-100Z{
+    height: 100%;
+}
+@media (max-width: 450px) {
+    .h1-heading{
+        width: 100%;
+        font-size: 40px;
+    }
+    .h2-heading{
+        font-size: 35px;
+    }
+}
+.hover-green:hover{
+    background-color: #2DA884 !important;
+    color: white;
+    
+}
+
+.hover-green:hover img{
+    filter: brightness(0) invert(1);
+}
+.hover-green2:hover{
+    background-color: #2DA884;
+    color: white;
+}
+.hover-green:hover span{
+    color: white !important;
+}
+.card-hover:hover .bg-hover-white{
+    background-color: white !important;
+}
+.card-hover:hover .bg-hover-green{
+    background-color: #2DA884 !important;
+}
+.card-hover:hover .text-hover-green{
+    color: #2DA884 !important;
+}
+.card-hover:hover .text-hover-white{
+    color:white !important;
+}
